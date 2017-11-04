@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Oleo+Script|Open+Sans|Original+Surfer|Tangerine);
+
+body {
+  background: #91D5FF;
+}
+
+header,
+article,
+section {
+  display: block;
+}
+
+header {
+  margin-top: 0;
+  height: 290px;
+  background-image: url('images/port-of-astakos-ionian-islands-sailing-greece.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+h1 {
+  position: absolute;
+  top: 45px;
+  margin-left: 30px;
+  color: #000080;
+  font-weight: bold;
+  font-family: 'Tangerine', cursive;
+  font-size: 70px;
+  text-shadow: 4px 4px 4px #AAAAAA;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+
+h3 {
+  text-align: left;
+  font-family: 'Oleo Script', cursive;
+  font-size: 28px;
+}
+
+h5 {
+  font-family: 'Original Surfer', cursive;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+a {
+  font-size: 120%;
+}
+
+
+/* Stick the Navigation Bar at the top */
+
+.stick {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+}
+
+
+/* Google Map display and position */
+
+#map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 100%;
+}
+
+
+/* Form position */
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Iframe display and position */
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 100%;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+/* Caption text */
+
+.text {
+  color: #000000;
+  font-family: 'Original Surfer', cursive;
+  font-size: 19px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
