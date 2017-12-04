@@ -11,36 +11,36 @@ section {
 }
 
 header {
-  margin-top: 0;
-  height: 290px;
   background-image: url('images/port-of-astakos-ionian-islands-sailing-greece.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
+  height: 290px;
+  margin-top: 0;
 }
 
 h1 {
-  position: absolute;
-  top: 45px;
-  margin-left: 30px;
   color: #000080;
-  font-weight: bold;
   font-family: 'Tangerine', cursive;
   font-size: 70px;
+  font-weight: bold;
+  left: 45px;
+  position: absolute;
   text-shadow: 4px 4px 4px #AAAAAA;
+  top: 30px;
 }
 
 h2 {
-  text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 35px;
+  text-align: center;
 }
 
 h3 {
-  text-align: left;
   font-family: 'Oleo Script', cursive;
   font-size: 28px;
+  text-align: left;
 }
 
 h5 {
@@ -48,13 +48,23 @@ h5 {
 }
 
 p {
-  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   text-align: justify;
 }
 
 a {
-  font-size: 120%;
+  font-size: 20px;
+}
+
+.web-logo {
+  width: 100%;
+}
+
+p.web-logo-text {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
 }
 
 
@@ -71,9 +81,9 @@ a {
 
 #map {
   display: block;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
   width: 100%;
 }
 
@@ -81,8 +91,8 @@ a {
 /* Form position */
 
 form {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
@@ -91,9 +101,9 @@ form {
 
 iframe {
   display: block;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
   width: 100%;
 }
 
@@ -101,9 +111,9 @@ iframe {
 /* Slideshow container */
 
 .slideshow-container {
+  margin: auto;
   max-width: 1000px;
   position: relative;
-  margin: auto;
 }
 
 .mySlides {
@@ -114,14 +124,14 @@ iframe {
 /* Caption text */
 
 .text {
+  bottom: 8px;
   color: #000000;
   font-family: 'Original Surfer', cursive;
   font-size: 19px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 
@@ -139,13 +149,13 @@ iframe {
 /* The dots/bullets/indicators */
 
 .dot {
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  height: 13px;
+  margin: 0 2px;
   transition: background-color 0.6s ease;
+  width: 13px;
 }
 
 .active {
@@ -156,10 +166,10 @@ iframe {
 /* Fading animation */
 
 .fade {
-  -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
-  animation-name: fade;
   animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  animation-name: fade;
 }
 
 @-webkit-keyframes fade {
@@ -183,8 +193,50 @@ iframe {
 
 /* On smaller screens, decrease text size */
 
-@media only screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   .text {
-    font-size: 11px;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h3 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .web-logo {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p.web-logo-text {
+    font-size: 10px;
   }
 }
