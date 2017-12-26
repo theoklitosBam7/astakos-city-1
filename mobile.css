@@ -1,0 +1,49 @@
+/* On smaller screens */
+
+@media screen and (max-width: 400px) {
+  .text {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h3 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .web-logo {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p.web-logo-text {
+    font-size: 10px;
+  }
+}
