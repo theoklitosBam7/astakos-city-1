@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var s = $(".nav-bar");
+  var s = $(".navbar");
   var pos = s.position();
   $(window).scroll(function () {
     var windowpos = $(window).scrollTop();
